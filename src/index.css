@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+
+
+
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  padding: 10px;
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+
+
+  box-shadow: 15px 15px 15px rgba(28, 66, 62, 0.392);
+  font-size: 1rem;
+
+
+  border-radius: 20px;
+  background-color: #4159d050;
+  background-image: linear-gradient(43deg,
+      #4159d06d 0%,
+      #c850c071 46%,
+      #ffcd706e 100%);
+  margin: auto 120px;
+}
+
+.main {
+  text-align: center;
+  padding: 1.4rem;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 10px;
+
+}

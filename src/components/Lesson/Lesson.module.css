@@ -1,0 +1,57 @@
+.card img{
+ width: 200px;
+ height: 200px;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: 2s;
+ /* margin: auto 20px; */
+}
+.name{
+  padding-left: 10px;
+  
+  width: 170px;
+  height: 70px;
+  /* border: 2px solid red; */
+    /* padding: 10px; */
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bolder;
+    /* letter-spacing: 1px; */
+    
+    align-items: center;
+    justify-content: center;
+}
+.image:hover{
+    cursor: pointer;
+    animation: perspective 1s;
+}
+
+.card {
+  /* border: 2px solid red; */
+   padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: auto;
+   
+   
+   
+   
+   
+}
+@keyframes perspective {
+    0% {
+      opacity: 0;
+      transform: rotateY(-35deg);
+    }
+    26% {
+      transform: rotateX(45deg);
+    }
+    74% {
+      transform: rotateY(-20deg);
+    }
+    100% {
+      transform: rotateX(20deg);
+    }
+  }
+  
